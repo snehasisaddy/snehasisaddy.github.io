@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student in CS at <a href='https://www.cics.umass.edu/'>University of Massachussetts-Amherst</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD student in CS at <a href='https://www.cics.umass.edu/'>University of Massachussetts-Amherst</a> || M.Sc. Physics, University of Calgary || B.Tech. ECE, IIT Dhanbad
 
 profile:
   align: right
