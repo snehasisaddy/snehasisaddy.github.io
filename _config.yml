@@ -85,7 +85,7 @@ lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: Snehasis Addy # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-8807-997X # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
@@ -108,7 +108,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is by email at: saddy[at]umass[dot]edu
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
