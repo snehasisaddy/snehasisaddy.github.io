@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD student in CS at <a href='https://www.cics.umass.edu/'>University of Massachussetts-Amherst</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
