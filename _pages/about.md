@@ -18,7 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi all! I'm Snehasis, a quantum researcher working beyond the boundaries of a single discipline. Currently, I am a PhD student at <a href='https://www.cics.umass.edu/'> University of Massachussetts-Amherst</a> working with <a href='https://www.cics.umass.edu/people/rozpedek-filip'>Prof. Filip Rozpędek</a> and <a href='https://www.cics.umass.edu/people/vardoyan-gayane'>Prof. Gayane Vardoyan</a> on Quantum Networks and Distributed Quantum Computing. 
+#Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
