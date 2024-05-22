@@ -17,7 +17,7 @@ determine the performance of our encoder design.
 
 My M.Sc. thesis can be found here:
 
-## Title: <a href='https://prism.ucalgary.ca/server/api/core/bitstreams/20a187d9-ee2e-4e31-acc8-e6622e5a546d/content'> Polar codes for information reconciliation in QKD *Quantum security for polarized channels*</a> ##
+## Title: <a href='https://prism.ucalgary.ca/server/api/core/bitstreams/20a187d9-ee2e-4e31-acc8-e6622e5a546d/content'> Polar codes for information reconciliation in QKD *Quantum security for polarized channels*</a> 
 
-# Abstract:
+### Abstract:
 This thesis considers the problem of information reconciliation in the context of secret key distribution between two parties. We recognize polar codes as a “good” solution to this problem that can be efficiently implemented for binary symmetric channels. In this thesis, we explore the applicability of designing a polar code encoder based on a channel reliability sequence. In particular, we show that the reliability sequence can be derived and used to design an encoder independent of the choice of decoder. We implement our design and evaluate its performance against previous implementations of polar code encoders for QKD as well as other typical error-correcting codes. The advantage of our approach is the modular design, which decouples the encoder and decoder design and allows independent optimization of each.
