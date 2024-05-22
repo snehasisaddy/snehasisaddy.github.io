@@ -1,33 +1,23 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Graduated with an M.Sc. degree from University of Calgary
+date: 2024-04-05 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+The goal of my M.Sc. research was to perform error correction in QKD using polar codes. This project involved
+the development of required mathematics such as calculating Bhattacharyya parameters (BP) for binary symmetric
+channels. Calculations of such parameters are necessary for the realization of a reliability sequence. Using BP we
+developed the algorithm for the reliability sequence which is necessary for doing the encoding in polar codes. We
+later used this algorithm for polar encoding and an already available polar decoder to perform some experiments to
+determine the performance of our encoder design.
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+My M.Sc. thesis can be found here:
 
-#### Hipster list
+## Title: <a href='https://prism.ucalgary.ca/server/api/core/bitstreams/20a187d9-ee2e-4e31-acc8-e6622e5a546d/content'> Polar codes for information reconciliation in QKD *Quantum security for polarized channels*</a> ##
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
----
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+# Abstract:# 
+This thesis considers the problem of information reconciliation in the context of secret key distribution between two parties. We recognize polar codes as a “good” solution to this problem that can be efficiently implemented for binary symmetric channels. In this thesis, we explore the applicability of designing a polar code encoder based on a channel reliability sequence. In particular, we show that the reliability sequence can be derived and used to design an encoder independent of the choice of decoder. We implement our design and evaluate its performance against previous implementations of polar code encoders for QKD as well as other typical error-correcting codes. The advantage of our approach is the modular design, which decouples the encoder and decoder design and allows independent optimization of each.
