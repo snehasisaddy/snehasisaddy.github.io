@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /profiles/
+permalink: /advising/
 title: advising
 description: students mentored
 nav: true
