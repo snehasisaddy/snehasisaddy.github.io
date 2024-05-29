@@ -15,17 +15,17 @@
       institution: University of Massachusetts-Amherst
       year: 2024-Present
       description:
-        - Supervisor: Prof. Filip Rozpędek
-        - Co-Supervisor: Prof. Gayane Vardoyan
-        - Topics: Quantum Networks, Distributed Quantum Computing
+        - Supervisor- Prof. Filip Rozpędek
+        - Co-Supervisor- Prof. Gayane Vardoyan
+        - Topics- Quantum Networks, Distributed Quantum Computing
     
     - title: M.Sc. Physics
       institution: University of Calgary
       year: 2021-2024
       description:
-        - Supervisor: Prof. Daniel Oblak
-        - Co-Supervisor: Prof. Rei Safavi-Naini
-        - Topics: Information reconciliation, Quantum Key Distribution
+        - Supervisor- Prof. Daniel Oblak
+        - Co-Supervisor- Prof. Rei Safavi-Naini
+        - Topics- Information reconciliation, Quantum Key Distribution
 
 - title: Work Experience
   type: time_table
@@ -35,14 +35,12 @@
       year: 09/22 ‐ 12/22
       description:
         - PHYS 369- Acoustics, Optics, and Radiation
-        - Description 2.
     
     - title: Teaching Assistant
       institution: University of Calgary
       year: 01/22 ‐ 04/22
       description:
         - PHYS 259- Electricity and Magnetism
-        - Description 2.
 
     - title: Research Intern
       institution: University of Calgary
@@ -64,9 +62,12 @@
   contents:
     - title: Quantum Networks
       items:
-        - Description 1.
-        - Description 2.
+        - Networking using 3rd generation repeaters
+        
     - title: Distributed Quantum Computing
       items:
-        - Description 1.
-        - Description 2.
+        - Multi QPU computation using circuit cutting techniques
+        
+    - title: Quantum Cryptography
+      items:
+        - Quantum Key Distribution
