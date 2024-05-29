@@ -3,11 +3,11 @@ s
   type: map
   contents:
     - name: Full Name
-      value: Snehasis Addy
+      value: Albert Einstein
     - name: Date of Birth
-      value: 14th Feb 1999
+      value: 14th March 1879
     - name: Languages
-      value: English, Hindi, Bengali
+      value: English, German
 
 - title: Education
   type: time_table
