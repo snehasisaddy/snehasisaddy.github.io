@@ -35,7 +35,7 @@
       institution: University of Calgary
       year: Sept 2022 ‐ Dec 2022
       description:
-        - Course PHYS 369‐ Acoustic, Optics and Radiation
+        - Description 1.
         - Description 2.
         - title: Description 3.
           contents:
@@ -45,14 +45,12 @@
       institution: University of Calgary
       year: Jan 2022 ‐ Apr 2022
       description:
-        - Course PHYS259‐ Electricity and Magnetism
+        - Description 1.
         - Description 2.
 
     - title: Research Intern
       institution: University of Calgary
       year: May 2020 ‐ July 2020
-      description:
-        - Project- Error Correction in Quantum Key Distribution using LDPC codes.
 
 - title: Open Source Projects
   type: time_table
