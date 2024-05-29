@@ -6,12 +6,12 @@
     - name: Date of Birth
       value: 14th February 1999
     - name: Languages
-      value: English, Hindi, Bengali
+      value: English, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD in CS
+    - title: PhD
       institution: University of Massachusetts-Amherst, USA
       year: 2024-Present
       description:
@@ -47,10 +47,7 @@
       description:
         - Description 1.
         - Description 2.
-
-    - title: Research Intern
-      institution: University of Calgary
-      year: May 2020 ‐ July 2020
+        
 
 - title: Open Source Projects
   type: time_table
