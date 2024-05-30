@@ -8,9 +8,9 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+ This project involved the development of required mathematics such as calculating Bhattacharyya parameters (BP) for binary symmetric channels. Calculations of such parameters are necessary for the realization of a reliability sequence. Using BP we developed the algorithm for the reliability sequence which is necessary for doing the encoding in polar codes. We later used this algorithm for polar encoding and an already available polar decoder to perform some experiments to determine the performance of our encoder design.
+
+
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
