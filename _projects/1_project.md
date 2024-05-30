@@ -2,7 +2,7 @@
 layout: page
 title: Information Reconciliation in QKD using Polar Codes
 description: M.Sc. project
-img: assets/img/AliceBob.drawio.pdf
+img: assets/img/AliceBob.drawio.jpg
 importance: 1
 category: work
 related_publications: true
