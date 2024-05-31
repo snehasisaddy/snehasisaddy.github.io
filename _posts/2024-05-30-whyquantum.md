@@ -9,7 +9,7 @@ tabs: true
 ---
 
 under construction!
-<!---This is how a post with [tabs](https://github.com/Ovski4/jekyll-tabs) looks like. Note that the tabs could be used for different purposes, not only for code.
+<!-- This is how a post with [tabs](https://github.com/Ovski4/jekyll-tabs) looks like. Note that the tabs could be used for different purposes, not only for code.
 
 ## First tabs
 
