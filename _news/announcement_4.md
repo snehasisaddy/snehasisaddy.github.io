@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thrilled to have received my certification as an IBM Associate Qiskit Developer!🎓
+title: Thrilled to have received my certification as an IBM Associate Qiskit Developer! 🎓
 date: 2024-07-23 16:11:00-0400
 inline: false
 related_posts: false
@@ -13,4 +13,4 @@ You can find my certification <a href ='https://www.credly.com/badges/f5f53020-6
 
 #QuantumComputing #IBM #Qiskit #Certification #Technology #Innovation
 
-![Javatpoint](/Users/snehasisaddy/Desktop/Qiskit cret./ibm-certified-associate-developer-quantum-computation-using-qiskit-v0-2x.png)  
+![alt text](assets/img/ibm-certified-associate-developer-quantum-computation-using-qiskit-v0-2x.png)
