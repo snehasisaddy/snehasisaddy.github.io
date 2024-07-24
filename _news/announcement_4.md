@@ -13,4 +13,4 @@ You can find my certification <a href ='https://www.credly.com/badges/f5f53020-6
 
 #QuantumComputing #IBM #Qiskit #Certification #Technology #Innovation
 
-![preview](ibm-certified-associate-developer-quantum-computation-using-qiskit-v0-2x.png 'Title')
+![image](ibm-certified-associate-developer-quantum-computation-using-qiskit-v0-2x.png 'Title')
