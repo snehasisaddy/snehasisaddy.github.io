@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Graduated with an M.Sc. degree from University of Calgary
+title: Graduated with an M.Sc. degree from University of Calgary 🎓
 date: 2024-04-05 16:11:00-0400
 inline: false
 related_posts: false
