@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thrilled to have received my certification as an IBM Associate Qiskit Developer! 🎓
+title: Thrilled to have received my certification as an IBM Associate Qiskit Developer!
 date: 2024-07-23 16:11:00-0400
 inline: false
 related_posts: false
