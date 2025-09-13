@@ -15,9 +15,9 @@
       institution: University of Massachusetts-Amherst
       year: 2024-Present
       description:
-        - Supervisor- Prof. Filip Rozpędek
-        - Co-Supervisor- Prof. Gayane Vardoyan
-        - Topics- Quantum Networks, Distributed Quantum Computing
+        - Supervisor- Prof. Prashant Shenoy
+        - Co-Supervisor- Prof. VP Nguyen
+        - Topics- Neuromorphic wearables for audio and health sensing, IoT, and Ubiquitous computing
     
     - title: M.Sc. Physics
       institution: University of Calgary
@@ -56,18 +56,3 @@
       items:
         - International Graduate Tuition Award
         - University of Calgary PHAS Internal Award
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Quantum Networks
-      items:
-        - Networking using 3rd generation repeaters
-        
-    - title: Distributed Quantum Computing
-      items:
-        - Multi QPU computation using circuit cutting techniques
-        
-    - title: Quantum Cryptography
-      items:
-        - Quantum Key Distribution
