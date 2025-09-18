@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. student in CS at <a href='https://www.cics.umass.edu/'>University of Massachusetts-Amherst</a> || Exploring neuromorphic wearables for health sensing, energy-efficient sensing, IoT, and ubiquitous computing.
+subtitle: Ph.D. student in CS at <a href='https://www.cics.umass.edu/'>University of Massachusetts-Amherst</a> || Building next generation wearable technology.
 profile:
   align: right
   image: prof_pic.jpg
