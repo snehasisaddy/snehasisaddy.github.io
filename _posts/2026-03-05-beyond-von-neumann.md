@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Beyond von Neumann: Why Your Next Wearable Might Think Like a Brain"
-date: 2025-03-04
+date: 2026-03-05
 description: The chip architecture powering your laptop is 80 years old. Neuromorphic computing is here to replace it — one spike at a time.
 tags: neuromorphic wearables spikingneuralnetworks edgeAI IoT
 categories: neuromorphic
