@@ -2,7 +2,7 @@
 layout: page
 title: Distributed Transaction Server
 description: Scalable fault-tolerant stock trading platform with Paxos consensus
-img:
+img: assets/img/baran_distributed_network.svg
 importance: 3
 category: work
 related_publications: false
@@ -18,3 +18,6 @@ Some highlights of this project are:
 
 ---
 *Advisor: <a href="https://people.cs.umass.edu/~shenoy/">Prof. Prashant Shenoy</a>, UMass Amherst.*
+
+---
+<small>Figure: <a href="https://commons.wikimedia.org/wiki/File:Baran_distributed_network_(2).svg">Baran distributed network</a> by Pr.mtb, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</small>

@@ -2,7 +2,7 @@
 layout: page
 title: Neuromorphic In-Ear LLM Conversation Assistant
 description: Research project at LASS, UMass Amherst
-img:
+img: assets/img/colored_neural_network.svg
 importance: 1
 category: work
 related_publications: false
@@ -19,3 +19,6 @@ Some highlights of this project are:
 
 ---
 *Advisor: <a href="https://people.cs.umass.edu/~shenoy/">Prof. Prashant Shenoy</a> and <a href="https://people.cs.umass.edu/~phuc/">Prof. VP Nguyen</a>, Laboratory for Advanced System Software, UMass Amherst.*
+
+---
+<small>Figure: <a href="https://commons.wikimedia.org/wiki/File:Colored_neural_network.svg">Colored neural network</a> by <a href="https://commons.wikimedia.org/wiki/User:Glosser.ca">Glosser.ca</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons.</small>
