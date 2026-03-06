@@ -12,7 +12,7 @@ author: Snehasis Addy
 
 Imagine wearing a device on your ear that listens for your voice all day, understands context, and responds intelligently — all while consuming less power than a flickering candle. No cloud. No battery anxiety. Just a tiny chip, thinking quietly.
 
-This isn't science fiction. It's what neuromorphic computing is making possible right now. But to understand why it's such a big deal, we need to go back to a design decision made in 1945.
+This isn't science fiction. It's what neuromorphic computing is making possible right now. But to understand why it's such a big deal, we need to go back to a design decision made in 1945 [^3].
 
 ---
 
@@ -77,3 +77,5 @@ The next time your earbuds understand you perfectly without ever dying on a long
 [^1]: Schuman, C. D., et al. (2022). Opportunities for neuromorphic computing algorithms and applications. *Neuromorphic Computing and Engineering*, 2(1). [https://doi.org/10.1088/2634-4386/ac4a83](https://doi.org/10.1088/2634-4386/ac4a83)
 
 [^2]: SynSense. (2024). Micro-power spoken keyword spotting on Xylo Audio 2. SynSense Technical Report. [https://www.synsense.ai/wp-content/uploads/2024/08/Micro-power-spoken-keyword-spotting-on-XyloA2.pdf](https://www.synsense.ai/wp-content/uploads/2024/08/Micro-power-spoken-keyword-spotting-on-XyloA2.pdf)
+
+[^3]: von Neumann, J. (1945). *First Draft of a Report on the EDVAC*. Moore School of Electrical Engineering, University of Pennsylvania. [https://archive.org/details/firstdraftofrepo00vonn](https://archive.org/details/firstdraftofrepo00vonn)
