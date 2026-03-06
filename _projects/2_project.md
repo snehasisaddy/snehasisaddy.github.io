@@ -3,7 +3,7 @@ layout: page
 title: LDPC codes for information reconciliation in QKD
 description: Implementation of LDPC Error Correction over experimental QKD Dataset
 img: 
-importance: 2
+importance: 6
 category: work
 giscus_comments: false
 ---

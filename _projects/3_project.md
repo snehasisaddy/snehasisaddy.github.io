@@ -4,7 +4,7 @@ title: Privacy amplification in QKD
 description: 
 img:
 redirect:
-importance: 3
+importance: 7
 category: work
 ---
 
