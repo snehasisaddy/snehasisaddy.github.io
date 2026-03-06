@@ -7,6 +7,7 @@ tags: neuromorphic wearables spikingneuralnetworks edgeAI IoT
 categories: neuromorphic
 featured: true
 thumbnail: assets/img/colored_neural_network.svg
+author: Snehasis Addy
 ---
 
 Imagine wearing a device on your ear that listens for your voice all day, understands context, and responds intelligently — all while consuming less power than a flickering candle. No cloud. No battery anxiety. Just a tiny chip, thinking quietly.
