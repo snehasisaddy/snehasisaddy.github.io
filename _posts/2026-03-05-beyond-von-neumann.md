@@ -6,7 +6,7 @@ description: The chip architecture powering your laptop is 80 years old. Neuromo
 tags: neuromorphic wearables spikingneuralnetworks edgeAI IoT
 categories: neuromorphic
 featured: true
-thumbnail: assets/img/colored_neural_network.svg
+thumbnail: assets/img/wearable_iot_devices.png
 author: Snehasis Addy
 ---
 

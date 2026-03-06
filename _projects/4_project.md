@@ -2,7 +2,7 @@
 layout: page
 title: Neuromorphic In-Ear LLM Conversation Assistant
 description: Research project at LASS, UMass Amherst
-img: assets/img/colored_neural_network.svg
+img: assets/img/wearable_ar_glasses.png
 importance: 1
 category: work
 related_publications: false
