@@ -7,7 +7,7 @@ tags: neuromorphic wearables spikingneuralnetworks edgeAI IoT
 categories: neuromorphic
 featured: true
 thumbnail: assets/img/wearable_iot_devices.png
-author: Snehasis Addy
+author: [Snehasis Addy, Claude Sonnet]
 ---
 
 Imagine wearing a device on your ear that listens to your voice all day, understands context, and responds intelligently — all while drawing less power than a flickering candle, requiring no cloud connection, and lasting for months on a battery the size of a shirt button. This is not science fiction; it is what neuromorphic computing is beginning to make possible, and to understand why it represents such a fundamental departure from everything we have built for the last eighty years, we need to go back to a design decision made in 1945 [^3].
