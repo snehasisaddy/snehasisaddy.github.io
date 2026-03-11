@@ -10,7 +10,7 @@ thumbnail: assets/img/wearable_iot_devices.png
 author: Snehasis Addy and Claude Sonnet
 ---
 
-Imagine wearing a device on your ear that listens to your voice all day, understands context, and responds intelligently — all while drawing less power than a flickering candle, requiring no cloud connection, and lasting for months on a battery the size of a shirt button. This is not science fiction; it is what neuromorphic computing is beginning to make possible, and to understand why it represents such a fundamental departure from everything we have built for the last eighty years, we need to go back to a design decision made in 1945 [^3].
+Imagine a patch the size of a bandage worn on your wrist that monitors your heart's electrical rhythm every second of every day, detects the subtle precursors of an arrhythmia before any symptom appears, and does all of this without ever sending data to a server, without generating enough heat to feel uncomfortable against skin, and without exhausting a coin-cell battery in less than a year. This is not science fiction; it is what neuromorphic computing is beginning to make possible, and to understand why it represents such a fundamental departure from everything we have built for the last eighty years, we need to go back to a design decision made in 1945 [^3].
 
 ---
 
@@ -44,7 +44,7 @@ Neuromorphic computing is still young, and the gap between its promise and its p
 
 ---
 
-*This is the first post in the NeuroPulse series, exploring neuromorphic wearable technology — the research at the intersection of brain-inspired computing, always-on sensing, and intelligent IoT devices.*
+*This is the first post in **SpikeSense**, a blog on neuromorphic wearables — the future of always-on sensing.*
 
 ---
 
