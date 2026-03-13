@@ -26,12 +26,6 @@ Your brain, in contrast, processes sensory information continuously while consum
 
 ---
 
-## From Theory to Your Earbuds
-
-This is not merely an academic idea. SynSense, a neuromorphic chip company, has built a chip called **Xylo Audio 2 (XyloA2)** designed specifically for always-on audio tasks such as wake-word detection — identifying phrases like "Hey Siri" or "OK Google" [^2]. A conventional approach handles this by continuously sampling audio at 16,000 times per second, running every sample through a neural network whether anything is happening or not, and discarding the vast majority of results. The XyloA2 does something structurally different: it processes audio only when the signal changes meaningfully, so long silences cost almost nothing, and computation happens in brief, efficient bursts of spikes rather than a continuous stream. The result is power consumption in the **micro-watt range** — orders of magnitude below what a conventional chip requires for the same task [^2], and low enough that the chip could run for months on a small battery or be powered entirely by body heat.
-
----
-
 ## Why This Changes Everything for Wearables
 
 The implications for wearable technology extend well beyond smarter earbuds. A wearable designed for continuous health monitoring — tracking heart rhythm, detecting signs of respiratory distress, or classifying movement patterns — must run uninterrupted all day, every day; with von Neumann chips, that requirement forces a compromise between sensing capability and battery life that no amount of conventional engineering has yet resolved. Neuromorphic chips change that trade-off fundamentally, because their energy consumption is governed not by how long they run but by how often something meaningful occurs in the data they observe. Consider in-ear AI assistants capable of real-time language translation, cognitive support, or ambient health monitoring: today these applications demand a constant cloud connection because on-device processing draws too much power, introducing latency, privacy risks, and a hard dependency on network availability. Neuromorphic hardware dissolves that dependency by moving intelligence to the edge — into the device itself, on your body. The market reflects this potential: estimated at $0.2 billion in 2025, the neuromorphic computing sector is projected to reach **$22 billion by 2035** [^1], driven largely by demand from IoT, wearables, and edge AI.
@@ -51,7 +45,5 @@ Neuromorphic computing is still young, and the gap between its promise and its p
 ### References
 
 [^1]: Schuman, C. D., et al. (2022). Opportunities for neuromorphic computing algorithms and applications. *Neuromorphic Computing and Engineering*, 2(1). [https://doi.org/10.1088/2634-4386/ac4a83](https://doi.org/10.1088/2634-4386/ac4a83)
-
-[^2]: SynSense. (2024). Micro-power spoken keyword spotting on Xylo Audio 2. SynSense Technical Report. [https://www.synsense.ai/wp-content/uploads/2024/08/Micro-power-spoken-keyword-spotting-on-XyloA2.pdf](https://www.synsense.ai/wp-content/uploads/2024/08/Micro-power-spoken-keyword-spotting-on-XyloA2.pdf)
 
 [^3]: von Neumann, J. (1945). *First Draft of a Report on the EDVAC*. Moore School of Electrical Engineering, University of Pennsylvania. [https://archive.org/details/firstdraftofrepo00vonn](https://archive.org/details/firstdraftofrepo00vonn)
