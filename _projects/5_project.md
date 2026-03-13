@@ -2,7 +2,7 @@
 layout: page
 title: Efficient Multimodal Sensing Systems
 description: Adaptive audio-visual sensor fusion for energy-efficient embedded sensing
-img: assets/img/internet_of_things.svg
+img: assets/img/multimodal_sensing.png
 importance: 2
 category: work
 related_publications: false
@@ -20,4 +20,4 @@ Some highlights of this project are:
 *Advisor: <a href="https://people.cs.umass.edu/~shenoy/">Prof. Prashant Shenoy</a>, Laboratory for Advanced System Software, UMass Amherst.*
 
 ---
-<small>Figure: <a href="https://commons.wikimedia.org/wiki/File:Internet_of_Things.svg">Internet of Things</a>, Public domain, via Wikimedia Commons.</small>
+<small>Figure: Adaptive sensing feedback loop between user and system.</small>
