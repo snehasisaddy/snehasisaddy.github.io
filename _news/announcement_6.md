@@ -6,4 +6,4 @@ inline: false
 related_posts: false
 ---
 
-I had the pleasure of giving an invited lecture on Neuromorphic Computing alongside Eduardo Calle Ortiz on April 22, 2026.
+I had the pleasure of giving an invited lecture on Neuromorphic Computing in CS 528: Mobile & Ubiquitous Computing taught by <a href="https://people.cs.umass.edu/~phuc/">Prof. VP Nguyen</a>, alongside Eduardo Calle Ortiz on April 22, 2026.
