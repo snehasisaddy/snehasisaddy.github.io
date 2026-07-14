@@ -7,4 +7,8 @@ nav: true
 nav_order: 7
 ---
 
-Under construction!
+### Mentor for Undergraduate Research Volunteer, Manning College of Information & Computer Sciences, UMass Amherst
+
+- Lucas Ho
+- Aayush Deherkar
+- Liliana Barcenas
