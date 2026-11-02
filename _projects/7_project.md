@@ -3,8 +3,8 @@ layout: page
 title: Scheduling Performance Evaluation for Quantum Entanglement Distribution
 description: Queuing-theoretic analysis of entanglement scheduling strategies
 img: assets/img/quantum_teleportation_circuit.svg
-importance: 4
-category: work
+importance: 6
+category: academic
 related_publications: false
 ---
 

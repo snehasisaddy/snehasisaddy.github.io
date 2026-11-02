@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Neuromorphic In-Ear LLM Conversation Assistant
-description: Research project at LASS, UMass Amherst
+description: Always-on conversation assistant pairing LLMs with neuromorphic audio sensing
 img: assets/img/wearable_ar_glasses.png
 importance: 1
-category: work
+category: research
 related_publications: false
 ---
 

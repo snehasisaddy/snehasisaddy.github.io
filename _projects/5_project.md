@@ -4,7 +4,7 @@ title: Efficient Multimodal Sensing Systems
 description: Adaptive audio-visual sensor fusion for energy-efficient embedded sensing
 img: assets/img/multimodal_sensing.png
 importance: 2
-category: work
+category: research
 related_publications: false
 ---
 
