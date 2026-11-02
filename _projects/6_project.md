@@ -2,8 +2,8 @@
 layout: page
 title: Distributed Transaction Server
 description: Scalable fault-tolerant stock trading platform with Paxos consensus
-img: assets/img/client_server_model.svg
-importance: 5
+img: assets/img/projects/distributed.svg
+importance: 2
 category: academic
 related_publications: false
 ---

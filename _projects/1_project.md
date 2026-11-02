@@ -2,8 +2,8 @@
 layout: page
 title: Post-Processing for Quantum Key Distribution
 description: Error correction and privacy amplification for QKD (M.Sc. project)
-img: assets/img/AliceBob.drawio.jpg
-importance: 4
+img: assets/img/projects/qkd.svg
+importance: 1
 category: academic
 related_publications: false
 ---
