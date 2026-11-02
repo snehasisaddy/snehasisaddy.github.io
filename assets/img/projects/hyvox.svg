@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f59f00"/><stop offset=".55" stop-color="#e8590c"/><stop offset="1" stop-color="#c92a2a"/></linearGradient>
+<radialGradient id="h" cx=".3" cy=".25" r=".8"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+<rect width="400" height="400" fill="url(#g)"/><rect width="400" height="400" fill="url(#h)"/>
+<g transform="translate(200 200) scale(1.18) translate(-200 -200)">
+<polyline points="52.0,200.0 53.6,199.2 55.2,197.3 56.8,196.0 58.4,196.9 60.0,199.8 61.6,203.0 63.2,204.7 64.8,204.3 66.4,202.6 68.0,200.3 69.6,197.6 71.2,194.1 72.8,191.0 74.4,191.3 76.0,197.8 77.6,210.7 79.2,224.8 80.8,231.9 82.4,225.6 84.0,206.4 85.6,182.6 87.2,165.8 88.8,163.6 90.4,175.7 92.0,194.2 93.6,209.3 95.2,215.7 96.8,213.9 98.4,208.3 100.0,202.3 101.6,196.6 103.2,190.5 104.8,185.4 106.4,185.0 108.0,193.1 109.6,209.3 111.2,226.9 112.8,236.4 114.4,231.2 116.0,212.6 117.6,189.5 119.2,173.0 120.8,169.8 122.4,178.6 124.0,192.5 125.6,203.8 127.2,208.7 128.8,208.0 130.4,204.8 132.0,201.7 133.6,199.3 135.2,197.3 136.8,196.0 138.4,196.1 140.0,198.0 141.6,200.7 143.2,202.6 144.8,202.6 146.4,201.1 148.0,200.0" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<line x1="152" y1="200" x2="160" y2="200" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<rect x="160" y="150" width="100" height="100" rx="16" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<line x1="178" y1="134" x2="178" y2="150" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><line x1="178" y1="250" x2="178" y2="266" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<line x1="200" y1="134" x2="200" y2="150" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><line x1="200" y1="250" x2="200" y2="266" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<line x1="222" y1="134" x2="222" y2="150" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><line x1="222" y1="250" x2="222" y2="266" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="190" cy="188" r="9" fill="#fff"/>
+<circle cx="230" cy="188" r="9" fill="#fff"/>
+<circle cx="210" cy="216" r="9" fill="#fff"/>
+<path d="M190 188 L230 188 L210 216 Z" stroke="#fff" stroke-width="4" fill="none" opacity=".8"/>
+<line x1="282" y1="166" x2="282" y2="234" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<line x1="298" y1="182" x2="298" y2="218" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<line x1="310" y1="156" x2="310" y2="244" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<line x1="330" y1="174" x2="330" y2="226" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<line x1="344" y1="162" x2="344" y2="238" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</g>
+</svg>
