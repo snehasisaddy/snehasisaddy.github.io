@@ -492,3 +492,20 @@ a.pj:hover .pj-more {
 .people a:hover h3 {
   color: var(--global-theme-color);
 }
+
+.circ-img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 0.9rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow:
+    0 0 0 4px var(--global-bg-color),
+    0 0 0 6px var(--global-theme-color);
+  transition: transform 0.3s ease;
+}
+
+.people a:hover .circ-img {
+  transform: scale(1.04);
+}
