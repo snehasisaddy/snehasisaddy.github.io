@@ -1,58 +1,75 @@
-- title: General Information
-  type: map
+- title: Research Experience
+  type: time_table
   contents:
-    - name: Full Name
-      value: Snehasis Addy
-    - name: Date of Birth
-      value: 14th Feb 1999
-    - name: Languages
-      value: English, Hindi, Bengali
+    - title: Research Assistant
+      institution: Laboratory for Advanced System Software, UMass Amherst
+      year: 2025 – Present
+      location: Amherst, MA
+      description:
+        - title: "HyVox: Rethinking Low-Power Voice Intelligence towards Neuromorphic-von Neumann Edge Computing (under submission)"
+          contents:
+            - "Built a hybrid neuromorphic–von Neumann system for always-on, open-set speaker identification: a neuromorphic chip embeds each audio window with sparse spiking, while an STM32 MCU scores speakers by cosine similarity, rejects unknowns, and enrolls new users and identifies them on-device without needing additional training."
+            - Designed an 832-neuron spiking neural network (SNN) that learns a time constant per neuron across fast, medium, and slow timescales, plus a 32-neuron embedding extractor trained on enrollment episodes to generalize to unseen speakers.
+            - Compressed the SNN 6.5x to fit the chip’s synapse budget, then built chip-accurate spiking training (CAST), which trains through a differentiable replica of the chip’s integer neurons and doubled top-1 accuracy on unseen speakers (31% → 61%).
+            - Reached 99.6% top-1 and 5.5% rejection EER with 2 members (94.9% and 13.2% with 20) at 1.63 mJ dynamic energy per 3-s window, with 42% lower latency than the fastest embedded ANN and 5.8x less total energy than the most efficient ANN.
+        - title: Neuromorphic On-Device Spoken Language Understanding
+          contents:
+            - "Building an end-to-end speech → phoneme → word → intent pipeline with no cloud speech recognition: the neuromorphic chip runs a feed-forward phoneme model, while the MCU holds context to assemble words and intents."
+            - This division of labor lets just 400 spiking neurons reach 60% span accuracy over a 2,000-word vocabulary.
+        - title: Energy-Adaptive Wearable Intelligence (UbiComp 2027)
+          contents:
+            - Trained the baseline spiking models and built compute benchmarks for IMU-based activity recognition on SynSense Xylo, using FLOP profiling to map energy–accuracy trade-offs across operating points.
+            - Helped develop a single runtime-adaptive model that scales its computation to the energy available, widening the operating range 10–40x with up to 3.3x fewer spikes and &lt;1.5% accuracy loss.
+
+- title: Publications
+  type: list
+  contents:
+    - '<a href="/projects/hyvox/"><b>HyVox: Rethinking Low-Power Voice Intelligence towards Neuromorphic-von Neumann Edge Computing</b></a> <i>(under submission)</i><br><b>Snehasis Addy</b>, Eduardo Calle Ortiz, Prashant Shenoy, VP Nguyen'
+    - '<b>Always-On Wearable Intelligence Through Energy-Adaptive Neuromorphic Computing</b> <i>(to appear at UbiComp 2027)</i><br>Eduardo Calle Ortiz, <b>Snehasis Addy</b>, Hui Guan, Deepak Ganesan, VP Nguyen'
+    - '<a href="https://arxiv.org/abs/2312.03100"><b>Flexible Polar Encoding for Information Reconciliation in QKD</b></a> <i>(arXiv:2312.03100)</i><br><b>Snehasis Addy</b>, Sabyasachi Dutta, Somnath Panja, Kunal Dey, Reihaneh Safavi-Naini, Daniel Oblak'
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: Distributed Transaction Server
+      institution: "Advisor: Prof. Prashant Shenoy"
+      description:
+        - Built a fault-tolerant three-tier trading platform, keeping replicas consistent via Bully leader election and Paxos.
+    - title: Flexible Polar Encoding for Information Reconciliation in QKD
+      description:
+        - Designed a polar-code encoder for error reconciliation in quantum key distribution (QKD), deriving an O(N log N) reliability-sequence algorithm that works with any decoder.
+        - Converged ~47x faster than prior methods (~10 s vs. ~468 s at N = 2<sup>16</sup>) at comparable quality, with finite-key security proofs.
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. Computer Science
-      institution: University of Massachusetts-Amherst
-      year: 2024-Present
+    - title: Ph.D. in Computer Science
+      institution: University of Massachusetts Amherst
+      year: Expected 2028
+      location: Amherst, USA
       description:
-        - Supervisor- Prof. Prashant Shenoy
-        - Co-Supervisor- Prof. VP Nguyen
-        - Topics- Neuromorphic wearables for audio and health sensing, IoT, and Ubiquitous computing
-    
-    - title: M.Sc. Physics
+        - "Advisors: Prof. Prashant Shenoy, Prof. VP Nguyen"
+    - title: M.S. in Physics
       institution: University of Calgary
-      year: 2021-2024
-      description:
-        - Supervisor- Prof. Daniel Oblak
-        - Co-Supervisor- Prof. Rei Safavi-Naini
-        - Topics- Information reconciliation, Quantum Key Distribution
+      year: 2024
+      location: Calgary, Canada
+    - title: B.Tech. in Electronics & Communication Engineering
+      institution: IIT Dhanbad
+      year: 2021
+      location: Dhanbad, India
 
-- title: Work Experience
-  type: time_table
+- title: Skills
+  type: map
   contents:
-    - title: Lead Teaching Assistant
-      institution: University of Calgary
-      year: 09/22 ‐ 12/22
-      description:
-        - PHYS 369- Acoustics, Optics, and Radiation
-    
-    - title: Teaching Assistant
-      institution: University of Calgary
-      year: 01/22 ‐ 04/22
-      description:
-        - PHYS 259- Electricity and Magnetism
-
-    - title: Research Intern
-      institution: University of Calgary
-      year: 05/20 ‐ 07/20
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2024
-      items:
-        - 2024 CICS Scholarship
-    - year: 2023
-      items:
-        - International Graduate Tuition Award
-        - University of Calgary PHAS Internal Award
+    - name: Research Areas
+      value: Edge AI, On-Device Machine Learning, Ubiquitous Computing, HCI, Human-Centered AI
+    - name: AI Model Efficiency
+      value: Structured Pruning, Quantization-Aware Training (QAT), Model Compression, Chip-Accurate Fine-Tuning
+    - name: Speech & Audio
+      value: Speaker identification & verification, spoken language understanding, audio feature extraction, VoxCeleb
+    - name: Embedded & Hardware
+      value: STM32 MCUs, SynSense Xylo, neuromorphic chips, inference firmware, energy & latency profiling
+    - name: Programming
+      value: 3+ years experience with Python and MATLAB; C/C++, SQL, Linux, Docker, GCP, AWS
+    - name: Machine Learning
+      value: 3+ years experience with PyTorch and TensorFlow; NumPy, Pandas, scikit-learn
