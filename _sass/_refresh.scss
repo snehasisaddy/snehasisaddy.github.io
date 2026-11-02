@@ -454,3 +454,23 @@ a.pj:hover .pj-more {
     max-width: 100%;
   }
 }
+
+// Resume download button
+
+.dl-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 500;
+  color: var(--global-hover-text-color) !important;
+  background: var(--global-theme-color);
+  text-decoration: none !important;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+}
