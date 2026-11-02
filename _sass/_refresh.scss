@@ -1,0 +1,456 @@
+// Site-wide refresh: teal section labels, circles instead of boxes, pill links.
+// Loaded last from assets/css/main.scss so it overrides the al-folio defaults.
+
+$grad-orange: linear-gradient(135deg, #f59f00, #e8590c 55%, #c92a2a);
+$grad-indigo: linear-gradient(135deg, #5c7cfa, #4263eb 55%, #3b2c9e);
+$grad-teal: linear-gradient(135deg, #22b8cf, #0891b2 55%, #0b5f78);
+$grad-violet: linear-gradient(135deg, #9775fa, #7048e8 55%, #4c1d95);
+
+// Section labels
+
+.sec-label,
+.pj-cat,
+.publications h2.bibliography,
+.cv .card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin: 2.75rem 0 1.5rem;
+  padding: 0;
+  border: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--global-theme-color);
+
+  &::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--global-divider-color);
+  }
+
+  a,
+  a:hover {
+    color: inherit !important;
+    text-decoration: none;
+  }
+}
+
+.sec-note {
+  margin: -0.75rem 0 1.5rem;
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+}
+
+// Pills
+
+.pill {
+  display: inline-block;
+  padding: 0.15rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--global-theme-color);
+  background: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+// Gradient circles
+
+.circ {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.05;
+  text-align: center;
+  background: $grad-teal;
+
+  small {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    opacity: 0.85;
+  }
+
+  i {
+    font-size: 1.9rem;
+  }
+}
+
+.circ.lg {
+  width: 120px;
+  height: 120px;
+  font-size: 2rem;
+  letter-spacing: 0.04em;
+}
+
+.circ.g-orange {
+  background: $grad-orange;
+}
+.circ.g-indigo {
+  background: $grad-indigo;
+}
+.circ.g-teal {
+  background: $grad-teal;
+}
+.circ.g-violet {
+  background: $grad-violet;
+}
+
+// Entry rows (teaching)
+
+.ent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.ent {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+
+  p {
+    margin: 0.25rem 0 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
+  }
+}
+
+// People grid (advising)
+
+.people {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 2rem;
+  text-align: center;
+
+  .circ {
+    margin: 0 auto 0.9rem;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+}
+
+// Projects
+
+a.pj,
+a.pj:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pj-img {
+  display: block;
+  flex: none;
+  border-radius: 50%;
+  object-fit: cover;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+a.pj:hover .pj-img {
+  transform: scale(1.04);
+  box-shadow:
+    0 0 0 5px var(--global-bg-color),
+    0 0 0 7px var(--global-theme-color);
+}
+
+.pj h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--global-text-color);
+  text-wrap: balance;
+}
+
+.pj p {
+  margin: 0.4rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--global-text-color-light);
+}
+
+.pj-more {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--global-theme-color);
+  transition: transform 0.3s ease;
+}
+
+a.pj:hover .pj-more {
+  transform: translateX(4px);
+}
+
+.pj-feature {
+  display: flex;
+  align-items: center;
+  gap: 2.25rem;
+
+  .pj-img {
+    width: 190px;
+    height: 190px;
+  }
+
+  h3 {
+    font-size: 1.45rem;
+  }
+
+  p {
+    font-size: 1.02rem;
+  }
+}
+
+.pj-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 2.5rem 2rem;
+
+  .pj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pj-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1.1rem;
+  }
+}
+
+// About: profile ring and news list
+
+.profile img.rounded-circle {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: 50% 25%;
+  box-shadow:
+    0 0 0 6px var(--global-bg-color),
+    0 0 0 8px var(--global-theme-color) !important;
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: baseline;
+    gap: 1.25rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  .pill {
+    flex: none;
+    min-width: 7.5rem;
+    text-align: center;
+  }
+
+  .news-text {
+    min-width: 0;
+  }
+}
+
+.news-scroll {
+  max-height: 60vw;
+  overflow-y: auto;
+}
+
+// Publications
+
+.publications ol.bibliography li {
+  padding: 1rem 0 1.25rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .title {
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+
+  .abbr .badge {
+    border-radius: 999px;
+  }
+
+  .links a.btn {
+    margin: 0.5rem 0.4rem 0 0;
+    padding: 0.15rem 0.85rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 999px;
+    font-size: 0.8rem;
+    color: var(--global-theme-color);
+    background: transparent;
+    transition:
+      background 0.2s ease,
+      color 0.2s ease;
+
+    &:hover {
+      color: var(--global-hover-text-color);
+      background: var(--global-theme-color);
+    }
+  }
+}
+
+// Blog
+
+.tag-category-list ul {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  padding-bottom: 1rem !important;
+
+  p,
+  li > i {
+    display: none !important;
+  }
+
+  li {
+    padding: 0 !important;
+  }
+}
+
+.tag-category-list ul li a {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+  color: var(--global-theme-color);
+  background: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+  text-decoration: none;
+
+  &::before {
+    content: "#";
+    opacity: 0.6;
+  }
+}
+
+.featured-posts .card {
+  border-radius: 18px;
+}
+
+.post-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  .post-row-body {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+.post-thumb {
+  flex: none;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow:
+    0 0 0 5px var(--global-bg-color),
+    0 0 0 7px var(--global-theme-color);
+}
+
+// CV: sections without boxes
+
+.cv {
+  .card {
+    margin-top: 0 !important;
+    padding: 0 !important;
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .list-group-item {
+    padding: 0.9rem 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .card .list-group-item .badge.danger-color-dark {
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    color: var(--global-theme-color) !important;
+    background: color-mix(in srgb, var(--global-theme-color) 12%, transparent) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .pj-feature {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.25rem;
+
+    .pj-img {
+      width: 160px;
+      height: 160px;
+    }
+  }
+
+  .ent {
+    gap: 1rem;
+  }
+
+  .news-list li {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .post-row {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .header-bar h1 {
+    font-size: 3rem;
+  }
+
+  .featured-posts .row > .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

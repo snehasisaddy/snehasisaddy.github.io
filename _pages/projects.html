@@ -8,32 +8,6 @@ nav_order: 3
 display_categories: [research, academic]
 ---
 
-<style>
-  .pj-cat { display: flex; align-items: center; gap: .9rem; margin: 2.75rem 0 1.75rem; font-size: .8rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--global-theme-color); }
-  .pj-cat:first-of-type { margin-top: 1.25rem; }
-  .pj-cat::after { content: ""; flex: 1; height: 1px; background: var(--global-divider-color); }
-  a.pj, a.pj:hover { color: inherit; text-decoration: none; }
-  .pj-img { display: block; flex: none; border-radius: 50%; object-fit: cover; transition: transform .3s ease, box-shadow .3s ease; }
-  a.pj:hover .pj-img { transform: scale(1.04); box-shadow: 0 0 0 5px var(--global-bg-color), 0 0 0 7px var(--global-theme-color); }
-  .pj h3 { margin: 0; font-size: 1.15rem; font-weight: 600; line-height: 1.35; color: var(--global-text-color); text-wrap: balance; }
-  .pj p { margin: .4rem 0 0; font-size: .95rem; line-height: 1.55; color: var(--global-text-color-light); }
-  .pj-more { display: inline-block; margin-top: .6rem; font-size: .9rem; font-weight: 500; color: var(--global-theme-color); transition: transform .3s ease; }
-  a.pj:hover .pj-more { transform: translateX(4px); }
-
-  .pj-feature { display: flex; align-items: center; gap: 2.25rem; }
-  .pj-feature .pj-img { width: 190px; height: 190px; }
-  .pj-feature h3 { font-size: 1.45rem; }
-  .pj-feature p { font-size: 1.02rem; }
-
-  .pj-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 2.5rem 2rem; }
-  .pj-grid .pj { display: flex; flex-direction: column; align-items: center; text-align: center; }
-  .pj-grid .pj-img { width: 150px; height: 150px; margin-bottom: 1.1rem; }
-
-  @media (max-width: 576px) {
-    .pj-feature { flex-direction: column; text-align: center; gap: 1.25rem; }
-    .pj-feature .pj-img { width: 160px; height: 160px; }
-  }
-</style>
 
 <div class="projects">
 {% for category in page.display_categories %}

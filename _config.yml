@@ -285,7 +285,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["neuromorphic", "wearables", "IoT", "spikingneuralnetworks", "edgeAI"] # these tags will be displayed on the front page of your blog
-display_categories: [""] # these categories will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
