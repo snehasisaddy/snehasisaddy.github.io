@@ -5,7 +5,7 @@ permalink: /
 subtitle: Ph.D. student in CS at <a href='https://www.cics.umass.edu/'>University of Massachusetts-Amherst</a> || Building next generation wearable technology.
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_square.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Lederle Graduate Research Center</p>
